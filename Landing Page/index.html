@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samet Taşcı | Bilgisayar Mühendisliği Öğrencisi</title>
+    <meta name="keywords" content="Python,Django,HTML,CSS">
+    <meta name="description" content="Samet Taşcı | Bilgisayar Mühendisliği Öğrencisi">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/tablet.css">
+    <!-- Telefon -->
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+
+</head>
+<body>
+
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Samet Taşcı</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <section id="home">
+        <img style="height: 300px;" src="images/Vesikalık.jpg" alt="Samet Taşcı">
+        
+        <div class="name text-center">
+            <h2 class="heading-big">Samet Taşcı</h2>
+            <p>Bilgisayar Mühendisliği Öğrencisi</p>
+        </div>
+
+        <a class="btn btn-primary" href="#about">Hakkımda</a>
+
+    </section>    
+
+    <section id="about" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Hakkımda</h3>
+
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Sınıf içi eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laudantium!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online İçerikler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laudantium!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laudantium!</p>
+            </article>
+        </div>
+        
+
+    </section>
+
+    <section id="projects">
+        <h3 class="text-center heading-medium">Projeler</h3>
+
+        <div class="container">
+            <div class="projects">
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/Python-Symbol.png" alt="Python">
+                        <span class="bg-success">Bitti</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Python Programlama 
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, fuga!</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/django-logo-negative.webp" alt="Django">
+                        <span class="bg-danger">Bitmedi</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            Django Web Programlama 
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, fuga!</div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/html-css.jpg" alt="html-css">
+                        <span class="bg-success">Bitti</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="title">
+                            HTML-CSS Web Programlama 
+                        </div>
+                        <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, fuga!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input name="name" id="name" class="form-control" type="text" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" class="form-control" type="text" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block btn-white">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
